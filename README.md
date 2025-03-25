@@ -1,12 +1,12 @@
 # Project Proposal: Crowdsourced Local Event Finder Web App
 ________________________________________
 ## Problem Statement
-It can be difficult to find local events that fit with one's interests in the fast-paced world of today. Conventional event discovery tools frequently don't use community-driven information, don't offer personalized recommendations, and don't have a hyper-local focus. Due to their low exposure, smaller or more specialized events—like pop-up markets, neighbourhood gatherings, or local art exhibits—frequently go missed. Users also have trouble locating trustworthy, first-hand evaluations and suggestions to help them decide whether or not to attend events. This market gap emphasizes the need for a platform that integrates community-driven ratings, geolocation technology, and personalized event discovery to give users a more customized and interesting experience.
+It can be difficult to find local events that fits with an individual's interest in the fast-paced world of today. Conventional event discovery tools frequently don't use community-driven information, don't offer personalized recommendations, and don't have a hyper-local focus. Due to their low exposure, smaller or more specialized events—like pop-up markets, neighbourhood gatherings, or local art exhibits—frequently gets missed. Users also have trouble locating trustworthy, first-hand evaluations and suggestions to help them decide whether or not to attend events. This market gap emphasizes the need for a platform that integrates community-driven ratings, geolocation technology, and personalized event discovery to give users a more customized and interesting experience.
 ________________________________________
 ## Objective
 This project's goal is to create a crowdsourced local event finder web application that: 
-1.	Uses geolocation technology to make it easy for users to find events in their area. 
-2.	Provides a dependable and interesting platform for event discovery by enabling the community to submit, rate, and review events. 
+1.	Uses geolocation technology to make it easy for users to find events in their locality. 
+2.	Provides a dependable and interesting platform for event discovery by enabling the community to submit,rate and review events. 
 3.	Offers tailored suggestions according on user inclinations and previous exchanges. 
 4.	Provides a platform for organizers to access a larger audience, increasing visibility for smaller events. 
 5.	Encourages participation in the local community by putting users in touch with local activities and experiences.
