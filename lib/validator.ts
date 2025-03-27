@@ -10,6 +10,11 @@ export const eventFormSchema = z.object({
     endDateTime: z.string(),
     price: z.string(),
     isFree: z.boolean(),
+<<<<<<< HEAD
     url: z.string().url(),
     categoryId: z.string().min(1, "Category is required"), // Added categoryId
+=======
+    url: z.string().url()
+
+>>>>>>> ec21b564e99913ddf4e4158036753aa8ac30f42b
   })
