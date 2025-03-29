@@ -6,10 +6,11 @@ export const eventFormSchema = z.object({
     description: z.string().min(3,'Description must be at least 3 characters').max(400 ,'Description must be less than 400 characters'),
     location: z.string().min(3, 'Location must be at least 3 characters').max(400, 'Location must be less than 400 characters'),
     imageUrl: z.string(),
-    startDateTime: z.date(),
-    endDateTime: z.string(),
+    startDateTime: z.coerce.date(), //this will do not change it 
+    endDateTime: z.coerce.date(),   //this will do not change it 
+    date: z.coerce.date(),
     price: z.string(),
     isFree: z.boolean(),
-    url: z.string().url()
-
+    url: z.string().url(),
+    categoryId: z.string().nonempty("Category is required"), // Added categoryId
   })
