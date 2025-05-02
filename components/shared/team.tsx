@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 interface TeamMember {
   name: string;
@@ -15,39 +15,39 @@ interface TeamMember {
 
 const teamMembers: TeamMember[] = [
   {
-    name: 'Sharon Santos',
-    role: 'SEO Expert',
-    image: 'https://randomuser.me/api/portraits/men/75.jpg',
-    bio: 'Pellentesque dignissim urna eu felis. Curabitur pretium tincidunt lacus.',
+    name: " Gourav Singh",
+    role: "Full Stack Developer",
+    image: "/assets/images/gourav_singh.jpg",
+    bio: "Experienced in building scalable web applications with expertise in both front-end and back-end technologies.",
     social: {
-      facebook: '#',
-      twitter: '#',
-      google: '#',
-      linkedin: '#',
+      facebook: "#",
+      twitter: "#",
+      google: "#",
+      linkedin: "#",
     },
   },
   {
-    name: 'Helen Stephens',
-    role: 'Content Writer',
-    image: 'https://randomuser.me/api/portraits/women/65.jpg',
-    bio: 'Pellentesque dignissim urna eu felis. Curabitur pretium tincidunt lacus.',
+    name: "Karan Gilhotra",
+    role: "FrontEnd Developer",
+    image: "/assets/images/Karan_Gilhotra.jpg",
+    bio: "Specializes in crafting responsive and user-friendly interfaces using modern front-end frameworks.",
     social: {
-      facebook: '#',
-      twitter: '#',
-      google: '#',
-      linkedin: '#',
+      facebook: "#",
+      twitter: "#",
+      google: "#",
+      linkedin: "#",
     },
   },
   {
-    name: 'Harold Guerrero',
-    role: 'Marketing',
-    image: 'https://randomuser.me/api/portraits/men/35.jpg',
-    bio: 'Pellentesque dignissim urna eu felis. Curabitur pretium tincidunt lacus.',
+    name: "Hari Mohan Sharma",
+    role: "BackEnd Developer",
+    image: "/assets/images/Hari_Mohan_Sharma.jpg",
+    bio: "Expert in server-side development, database management, and API integrations for seamless functionality.",
     social: {
-      facebook: '#',
-      twitter: '#',
-      google: '#',
-      linkedin: '#',
+      facebook: "#",
+      twitter: "#",
+      google: "#",
+      linkedin: "#",
     },
   },
 ];
@@ -75,30 +75,68 @@ const TeamMembers: React.FC = () => {
             </div>
 
             <div className="mt-11 px-4 text-center">
-              <h3 className="text-lg font-semibold text-gray-800 dark:text-white">{member.name}</h3>
-              <p className="text-sm text-indigo-600 dark:text-indigo-400 font-medium mb-2">{member.role}</p>
-              <p className="text-xs text-gray-500 dark:text-gray-300 mb-4">{member.bio}</p>
+              <h3 className="text-lg font-semibold text-gray-800 dark:text-white">
+                {member.name}
+              </h3>
+              <p className="text-sm text-indigo-600 dark:text-indigo-400 font-medium mb-2">
+                {member.role}
+              </p>
+              <p className="text-xs text-gray-500 dark:text-gray-300 mb-4">
+                {member.bio}
+              </p>
 
               {/* Social Icons */}
               <div className="flex justify-center gap-3 mt-3">
                 {member.social.facebook && (
-                  <a href={member.social.facebook} target="_blank" rel="noopener noreferrer">
-                    <img src="/assets/icons/facebook-logo.png" alt="Facebook" className="w-5 h-5 hover:scale-110 transition-transform" />
+                  <a
+                    href={member.social.facebook}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="/assets/icons/facebook-logo.png"
+                      alt="Facebook"
+                      className="w-5 h-5 hover:scale-110 transition-transform"
+                    />
                   </a>
                 )}
                 {member.social.twitter && (
-                  <a href={member.social.twitter} target="_blank" rel="noopener noreferrer">
-                    <img src="/assets/icons/twitter.png" alt="Twitter" className="w-5 h-5 hover:scale-110 transition-transform" />
+                  <a
+                    href={member.social.twitter}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="/assets/icons/twitter.png"
+                      alt="Twitter"
+                      className="w-5 h-5 hover:scale-110 transition-transform"
+                    />
                   </a>
                 )}
                 {member.social.google && (
-                  <a href={member.social.google} target="_blank" rel="noopener noreferrer">
-                    <img src="/assets/icons/github.png" alt="Google" className="w-5 h-5 hover:scale-110 transition-transform" />
+                  <a
+                    href={member.social.google}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="/assets/icons/github.png"
+                      alt="Google"
+                      className="w-5 h-5 hover:scale-110 transition-transform"
+                    />
                   </a>
                 )}
                 {member.social.linkedin && (
-                  <a href={member.social.linkedin} target="_blank" rel="noopener noreferrer">
-                    <img src="/assets/icons/linkedin.png" alt="LinkedIn" className="w-5 h-5 hover:scale-110 transition-transform" />
+                  <a
+                    href={member.social.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="/assets/icons/linkedin.png"
+                      alt="LinkedIn"
+                      className="w-5 h-5 hover:scale-110 transition-transform"
+                    />
                   </a>
                 )}
               </div>
