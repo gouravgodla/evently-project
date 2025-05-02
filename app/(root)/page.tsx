@@ -1,6 +1,8 @@
+import About from "@/components/shared/about";
 import CategoryFilter from "@/components/shared/CategoryFilter";
 import Collection from "@/components/shared/Collection";
 import Search from "@/components/shared/Search";
+import TeamMembers from "@/components/shared/team";
 import { Button } from "@/components/ui/button";
 import { getAllEvents } from "@/lib/actions/event.actions";
 import { SearchParamProps } from "@/types";
@@ -71,15 +73,9 @@ export default async function Home({ searchParams }: SearchParamProps) {
         />
       </section>
       {/* about by karan */}
+      <About />
       <section className="wrapper my-8 flex flex-col gap-8 md:gap-12">
-        <div>
-          <h1 className="h2-bold">About</h1>
-        </div>
-      </section>
-      <section className="wrapper my-8 flex flex-col gap-8 md:gap-12">
-        <div>
-          <h1 className="h2-bold">Team Members</h1>
-        </div>
+        <TeamMembers />
       </section>
     </>
   );
